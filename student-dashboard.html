@@ -12,7 +12,7 @@
   <script>
     let loggedinUser = localStorage.getItem('logged_in_user');
     if (!loggedinUser) {
-      location.assign('/student-login.html')
+      location.assign('./student-login')
     }
   </script>
   <style>
@@ -375,8 +375,8 @@
       </main>
     </div>
   </div>
-  <include src="/src/components/bottom-nav"></include>
-  <script src="/src/index.js"></script>
+  <include src="./src/components/bottom-nav"></include>
+  <script src="./src/index.js"></script>
   
   <script>
     // মোবাইল ডিভাইসে সাইডবার টগল করার জন্য
